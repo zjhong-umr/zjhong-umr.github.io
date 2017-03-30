@@ -4,6 +4,8 @@ tagline:             'where amazing happens'
 description:         ''
 paginate:            5
 baseurl:             ''
+version:             1.0
+
 # About/contact
 author:
   name:              Junhong Zhang
