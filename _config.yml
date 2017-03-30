@@ -1,5 +1,20 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+name: Zjhong Blog
+title: Zjhong Blog
+description: A blog notes amazing things.
+author: zjhong-umr
+author_email: zjhong_sysu@outlook.com
+category_dir: /
+markdown: rdiscount
+paginate: 3
+paginate_path: "page:num"
+show_downloads: false
 google_analytics:
 theme: 
+
+rdiscount:
+  extensions:
+    - autolink      # greedily urlify links
+    - footnotes     # footnotes
+    - smart         # typographic substitutions with SmartyPants
+
+gems: [rdiscount, jekyll-paginate]
