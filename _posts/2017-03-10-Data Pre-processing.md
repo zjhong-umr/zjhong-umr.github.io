@@ -41,7 +41,7 @@ $$ A_[Nxd] \approx U \Sigma V^T = \sum_{i=1}^{r}\sigma_iu_iv_i^T$$
   Then, the eigenvectors of C are the same as the right singular vectors of X
   
 #### Example
-![](svd_example.png)
+![](/assets/images/svd_example.png)
 
 1. 左奇异矩阵表示用户对电影的各项指数的评分（如可以通过比对，大致指出column1表示科幻指数，column2表示浪漫指数，colum3的奇异值较小，可以reduce掉），最后可以用于训练得到一个模型，输入为该电影的分类得到电影可能的打分。
 2. 
@@ -81,8 +81,8 @@ $$ A_[Nxd] \approx U \Sigma V^T = \sum_{i=1}^{r}\sigma_iu_iv_i^T$$
  
  而此时刚好使用SVD求得$$S$$和$$\Sigma$$！
  
- ![](pca_1.png)
- ![](pca_2.png)
+ ![](/assets/images/pca_1.png)
+ ![](/assets/images/pca_2.png)
  
  
  
